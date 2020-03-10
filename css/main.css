@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'TheMidnight';
+    src: url("../fonts/TheMidnight.ttf") format('truetype');
+}
+
+body {
+    background-color: #fcfcfc;
+    color: #333333;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'TheMidnight';
+    font-size: 6em;
+}
+
+#links {
+    list-style: none;
+    font-size: 0.9em;
+}
+
+#links li {
+    padding: 5px;
+}
+
+#links i {
+    margin-right: 10px;
+}
+
+.debug {
+    border: 1px dotted red;
+}
