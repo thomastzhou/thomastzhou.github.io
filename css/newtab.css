@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
-    background-color: #3c3e3c;
+    background-color: #1f1d2e;
     overflow-y: hidden;
     font-family: 'Hack', 'Courier New', Courier, monospace;
 }
@@ -19,13 +19,13 @@ body {
     align-items: center;
 }
 
-#coffee {
+#logo {
     border-radius: 100%;
     width: 120px;
 }
 
 h1 {
-    color: #b2caab;
+    color: #ebbcba;
     font-weight: 500;
     font-size: 30pt;
     padding-left: 30px;
