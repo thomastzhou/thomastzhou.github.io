@@ -26,6 +26,12 @@ body {
 #logo {
     font-family: 'TheMidnight';
     font-size: 6em;
+    transition: all 0.5s ease-out;
+}
+
+#logo:hover {
+    color: #90e0ef;
+    font-size: 6.1em;
 }
 
 #links {
@@ -37,8 +43,16 @@ body {
     padding: 5px;
 }
 
-#links i {
-    margin-right: 5px;
+#links .link-item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#links .link-icon {
+    margin-right: 0.4em;
+    width: 1.2em;
+    height: 1.2em;
 }
 
 #links a {
@@ -49,7 +63,7 @@ body {
 
 a:hover {
     color: inherit;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .debug {
@@ -57,20 +71,24 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+    .wrapper {
+        font-size: 1.5vw;
+    }
+
     #logo {
         font-size: 10em;
-        margin-left: 100px;
+        margin-left: 1em;
+    }
+
+    #logo:hover {
+        font-size: 10.5em;
     }
 
     #links {
-        font-size: 2.3em;
+        font-size: 2em;
     }
 
-    #links a P{
+    #links a P {
         font-size: 1em;
-    }
-
-    #links li {
-        padding: 10px;
     }
 }
